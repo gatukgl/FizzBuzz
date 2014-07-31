@@ -8,6 +8,11 @@ class FizzBuzzTest(unittest.TestCase):
         result = fizzbuzz.take(3)
         self.assertEqual(result, 'fizz')
 
+    def test_number_5_should_return_5(self):
+        fizzbuzz = FizzBuzz()
+        result = fizzbuzz.take(5)
+        self.assertEqual(result, 'buzz')
+
 
 class FizzBuzz:
     def take(self, number):
