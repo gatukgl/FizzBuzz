@@ -16,4 +16,4 @@ class FizzBuzz:
 
 if __name__ == "__main__":
     #unittest.main()
-    unittest.main(testRunner=xmlrunner.XMLTestRunner(output='test-reports')
+    unittest.main(testRunner=xmlrunner.XMLTestRunner(output='test-reports'))
